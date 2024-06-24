@@ -3,6 +3,7 @@ import Images from '../components/Image/Images';
 
 export default {
   title: 'Example/Images',
+  // title: 'Example/Nyoba/Images', | kalo mau mengelompokaan di dalam folder percobaan
   component: Images,
   argTypes: {
     size: {
