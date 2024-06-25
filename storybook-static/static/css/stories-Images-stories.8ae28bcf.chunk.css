@@ -1,0 +1,21 @@
+.image-component {
+  display: block;
+  margin: auto;
+}
+
+.image-component.small {
+  width: 100px;
+  height: 100px;
+}
+
+.image-component.medium {
+  width: 200px;
+  height: 200px;
+}
+
+.image-component.large {
+  width: 300px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=stories-Images-stories.8ae28bcf.chunk.css.map*/

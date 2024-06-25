@@ -8,6 +8,8 @@ const config = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
+    "@storybook/addon-viewport",//untuk menambahkan responsif saat mencoba ui
+    "@storybook/addon-docs", // menambahkan addon docs
   ],
   framework: {
     name: "@storybook/react-webpack5",

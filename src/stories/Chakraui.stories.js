@@ -9,6 +9,7 @@ export default {
       control: 'select',
       options: ['green', 'red', 'blue', 'yellow', 'teal'],
     },
+    onClick : {action: 'clicked'}
   },
 };
 
@@ -25,3 +26,11 @@ Danger.args = {
   colorScheme: 'red',
   children: 'Danger',
 };
+
+export const Log = Template.bind({});
+Log.args = {
+  colorScheme: 'blue',
+  children: 'Log',
+  onClick: () => console.log('tombol ditekan'),
+};
+//membuat ketika button di klik akan muncul console sesuai inputan di atas
